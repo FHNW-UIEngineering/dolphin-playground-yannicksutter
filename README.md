@@ -21,16 +21,12 @@ It contains the following modules/projects
 
 ##Application introduction
 
-We implement a very simple application that contains only a simple header section and an editor area
-with three labels, two text fields to show the various binding options.
-'Save' will do nothing but printing all modified attributes
-on the server side. 'Reset' is used to reset all modified attributes to their initial value (or the value that has been saved).
-'Next' will load a new 'Person' via a service call. 'German' and 'English' are for multi-language support.
+Team: Patrick Wigger und Yannick Sutter
 
-'Save' and 'Reset' buttons are only enabled if there is really something to save/reset, i.e. at least one attribute value is dirty.
-The dirty state is also visualized via a CSS class (background color changes).
-
-The 'Name' field is marked as mandatory using a green border.
+Wir implementieren die Mountain App aus dem Unterricht in Dolphin.
+Wir werden aber nicht alle Formularfelder aus dem Unterricht übernehmen.
+Es wird einen Reset Knopf geben der alle veränderten Felder zurücksetzt.
+Ausserdem wird es einen Next Button geben der den Nächsten Berg lädt.
 
 ##Running the samples
 
